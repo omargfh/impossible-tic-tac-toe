@@ -265,3 +265,7 @@ main {
     padding: 0.25em 0.75em;
   }
 }
+
+.logo-tictactoe {
+  width: clamp(150px, 70vw, 400px)!important;
+}

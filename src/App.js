@@ -205,7 +205,7 @@ function App() {
     <>
       <Header reset={() => setStart(null)}/>
       <main>
-        <img src={logo} width="400" style={{marginBottom: "2rem", marginTop: "1.5rem", width: "400px"}}/>
+        <img className="logo-tictactoe" src={logo} width="400" style={{marginBottom: "2rem", marginTop: "1.5rem", width: "400px"}}/>
         {start ? <Game start={start} close={close} /> : <PickPlayer setStart={(e) => setTimeout(() => setStart(e), 0)} />}
       </main>
     </>
