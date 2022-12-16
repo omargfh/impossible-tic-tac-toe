@@ -36,6 +36,13 @@ body:has(.game-loading) {
   min-width: 100%;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .game {
   --width: 21.25rem;
   --height: 21.25rem;
