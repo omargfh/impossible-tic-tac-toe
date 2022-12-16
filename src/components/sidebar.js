@@ -24,7 +24,7 @@ const Sidebar = ({active}) => {
                 <SidebarItem img="http://lightbulb.omar-ibrahim.com/favicon.png" href="http://lightbulb.omar-ibrahim.com" sub="CSS Lightbulb" active={active === 'light'}/>
                 <SidebarItem img="http://shapes.omar-ibrahim.com/favicon.ico" href="http://shapes.omar-ibrahim.com" sub="Shape Guesser (Beta)" active={active === 'shape'}/>
                 <SidebarItem img="/lg.png" href="http://wordle.omar-ibrahim.com" sub="Wordle" active={active === 'wordle'}/>
-                <SidebarItem img="http://mazebuilder.omar-ibrahim.com/block.png"href="http://mazebuilder.omar-ibrahim.com" sub="Maze Builder" active={active === 'maze'}/>
+                <SidebarItem img="\block.png"href="http://mazebuilder.omar-ibrahim.com" sub="Maze Builder" active={active === 'maze'}/>
                 <SidebarItem img="\ayat.png" href="http://ayat.omar-ibrahim.com" sub="Ayat Search" active={active === 'ayat'}/>
               </ul>
             </div>
